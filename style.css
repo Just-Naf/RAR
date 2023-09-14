@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+body {
+    height: 1500px;
+}
+.navbar{
+    text-align: center;
+    padding: 10px 0;
+}
+.navbar li {
+    margin-right: -15px;
+  }
+#top-bar {
+    background-color: #8b8b8b;
+    color: #ffffff;
+}
+.social i {
+    color: #ffffff;
+    margin: 0 12px;
+}
+.nv{
+    font-family: 'Saira', sans-serif;
+    font-size: 14px;
+  }
+#menu {
+    background-color: #563d7c;
+}
+#menu .navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+}
+#menu .nav-link {
+    color: #ffffff;
+    margin: 0 15px;
+}
+#menu .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0px;
+    background-color: #563d7c;
+}
+#menu .dropdown-item {
+    padding: 1rem 1.5rem;
+    color: #f3f3f3;
+}
+#menu .dropdown-item:focus,
+.dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #8b8b8b;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+/* Ukuran font responsif */
+.judul {
+    font-size: 100px; /* Ukuran font default untuk layar besar */
+  }
+  
+  @media screen and (max-width: 480px) {
+    .judul {
+      font-size: 30px; /* Ukuran font untuk layar kecil */
+    }
+  }
+  /* Tata letak responsif */
+.judul {
+    margin-top: 20px; /* Jarak atas default */
+  }
+  
+  @media screen and (max-width: 480px) {
+    .judul {
+      margin-top: 10px; /* Jarak atas untuk layar kecil */
+    }
+  }
+
+.slider-caption .carousel-item {
+    max-height: 572px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.slider-caption .carousel-item .caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    color: white;
+}
+.slider-caption .carousel-caption {
+    top: 27%;
+}
+
+
+.slider-caption .carousel-indicators li {
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid transparent;
+    transition: all 0.3s ease;
+}
+.slider-caption .carousel-indicators li.active {
+    border-color: #ffffff;
+    transform: scale(1.2);
+}
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Warna hitam dengan transparansi 0.5 (menjadi gelap) */
+    z-index: 1; /* Pastikan lapisan gelap di atas gambar */
+    pointer-events: none; /* Membuat lapisan gelap tidak menghalangi interaksi pengguna */
+  }
+  @-webkit-keyframes slide-in-bottom {
+    0% {
+      -webkit-transform: translateY(1000px);
+              transform: translateY(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-bottom {
+    0% {
+      -webkit-transform: translateY(1000px);
+              transform: translateY(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  
+  .slide-in-bottom {
+	-webkit-animation: slide-in-bottom 1.4s ease-in-out both;
+	        animation: slide-in-bottom 1.4s ease-in-out both;
+}
+  .slide-in-bottom2 {
+	-webkit-animation: slide-in-bottom 1.6s ease-in-out both;
+	        animation: slide-in-bottom 1.6s ease-in-out both;
+}
+  .slide-in-bottom3 {
+	-webkit-animation: slide-in-bottom 1.4s ease-in-out both;
+	        animation: slide-in-bottom 1.4s ease-in-out both;
+}
