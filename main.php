@@ -15,7 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/5ee07d89ce.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet"  type="text/css" href="style.css">
+    <link rel="stylesheet"  type="text/css" href="main.css">
     <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
     <title>Document</title>
@@ -57,33 +57,14 @@
                         <i class="fa fa-bars text-white"></i>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nv nav-link" href="main.php">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nv nav-link" href="kita.php">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nv nav-link" href="#">Pricing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nv nav-link" href="#">Feature</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nv nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Services
-                                </a>
-                                <div class="dropdown-menu bg-sm-primary" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Installation Guide</a>
-                                    <a class="dropdown-item" href="#">User Guide</a>
-                                    <a class="dropdown-item" href="#">API Guide</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nv nav-link" href="#">Contact Us</a>
-                            </li>
-                        </ul>
+                    <ul class="nvb">
+                    <li class="current"><a href="#" data-hover="Home">Home</a></li>
+                    <li><a href="#" data-hover="About Us">About Us</a></li>
+                    <li><a href="#" data-hover="Blog">Blog</a></li>
+                    <li><a href="#" data-hover="Services">Services</a></li>
+                    <li><a href="#" data-hover="Products">Products</a></li>
+                    <li><a href="#" data-hover="Contact">Contact</a></li>
+                    </ul>
                     </div>
                 </div>
             </nav>
@@ -114,8 +95,8 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-12 col-md-9 col-lg-7 col-xl-6">
-                                            <h1 class="judul slide-in-bottom">Boat Excursions</h1>
-                                            <p class="isi slide-in-bottom2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique nisl vitae luctus sollicitudin. Fusce consectetur sem eget dui tristique, ac posuere arcu varius.</p>
+                                            <h1 class="slider-caption judul slide-in-bottom">Boat Excursions</h1>
+                                            <p class="slider-caption isi slide-in-bottom2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique nisl vitae luctus sollicitudin. Fusce consectetur sem eget dui tristique, ac posuere arcu varius.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -153,6 +134,250 @@
                 </a>
             </div>
         </section>
+
+        <!--about company-->
+        <section class="about-section">
+        <div class="container-us">
+            <div class="row">                
+                <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
+                    <div class="inner-column">
+                        <div class="sec-title">
+                            <span class="title">About Company</span>
+                            <h2>We are leader in <br>Industrial market Since 1992</h2>
+                        </div>
+                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur.</div>
+                        <ul class="list-style-one">
+                            <li>Lorem Ipsum is simply dummy tex</li>
+                            <li>Consectetur adipisicing elit</li>
+                            <li>Sed do eiusmod tempor incididunt</li>
+                        </ul>
+                        <div class="btn-box">
+                            <a href="#" class="theme-btn btn-style-one">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image Column -->
+                <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                    <div class="inner-column wow fadeInLeft">
+                        <figure class="image-1"><a href="#" class="lightbox-image" data-fancybox="images"><img src="https://i.ibb.co/QP6Nmpf/image-1-about.jpg" alt=""></a></figure>
+                        <figure class="image-2"><a href="#" class="lightbox-image" data-fancybox="images"><img src="https://i.ibb.co/JvN0NVB/image-2-about.jpg" alt=""></a></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!--card-->
+        <div class="container-card">
+        <div class="card" style="--clr: #009688">
+            <div class="img-box">
+                <img src="https://i.postimg.cc/t4w95jsf/img-01.png">
+            </div>
+            <div class="content">
+                <h2>Leafs</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Architecto, hic? Magnam eum error saepe doloribus corrupti
+                    repellat quisquam alias doloremque!
+                </p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+        <div class="card" style="--clr: #FF3E7F">
+            <div class="img-box">
+                <img src="https://i.postimg.cc/pdjRc68d/img-02.png">
+            </div>
+            <div class="content">
+                <h2>Fruits</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Architecto, hic? Magnam eum error saepe doloribus corrupti
+                    repellat quisquam alias doloremque!
+                </p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+        <div class="card" style="--clr: #03A9F4">
+            <div class="img-box">
+                <img src="https://i.postimg.cc/wvDr345G/img-37.png">
+            </div>
+            <div class="content">
+                <h2>Flowers</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Architecto, hic? Magnam eum error saepe doloribus corrupti
+                    repellat quisquam alias doloremque!
+                </p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+        <ul class="pemisah">
+        <div class="container-card">
+        <div class="card" style="--clr: #009688">
+            <div class="img-box">
+                <img src="https://i.postimg.cc/t4w95jsf/img-01.png">
+            </div>
+            <div class="content">
+                <h2>Leafs</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Architecto, hic? Magnam eum error saepe doloribus corrupti
+                    repellat quisquam alias doloremque!
+                </p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+        <div class="card" style="--clr: #FF3E7F">
+            <div class="img-box">
+                <img src="https://i.postimg.cc/pdjRc68d/img-02.png">
+            </div>
+            <div class="content">
+                <h2>Fruits</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Architecto, hic? Magnam eum error saepe doloribus corrupti
+                    repellat quisquam alias doloremque!
+                </p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+        <div class="card" style="--clr: #03A9F4">
+            <div class="img-box">
+                <img src="https://i.postimg.cc/wvDr345G/img-37.png">
+            </div>
+            <div class="content">
+                <h2>Flowers</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Architecto, hic? Magnam eum error saepe doloribus corrupti
+                    repellat quisquam alias doloremque!
+                </p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+        </ul>
+    </div>
+
+    <!--footer-->
+
+<footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>1010 Avenue, sw 54321, chandigarh</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>9876543210 0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>mail@info.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="https://i.ibb.co/QDy827D/ak-logo.png" class="img-fluid" alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">about</a></li>
+                                <li><a href="#">services</a></li>
+                                <li><a href="#">portfolio</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Our Services</a></li>
+                                <li><a href="#">Expert Team</a></li>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Latest News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Dont miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button><i class="fab fa-telegram-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2018, All Right Reserved <a href="https://codepen.io/anupkumar92/">Anup</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Policy</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
